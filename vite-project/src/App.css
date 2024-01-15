@@ -1,0 +1,77 @@
+:root{
+  --red:#d01c28;
+  --gray:#2e2e2e;
+}
+*{
+  margin: 0;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+ 
+  height: 75px;
+  align-items: center;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+button{
+  all:unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 30px;
+  color: white;
+  font-weight: 500;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  height: calc(100vh-72px); /* calc(100vh-72px) ommits scrolling*/
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap:38px;
+}
+.hero h1{
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 98px;
+
+}
+
+.hero p{
+  font-weight: 400;
+  color: rgb(74, 69, 69);
+}
+.hero-button{
+  gap: 24px;
+  display: flex;
+  font-size: 16px;
+}
+.secondary-btn{
+  background: transparent;
+  background-color: rgb(139, 130, 130);
+  border: 1px solid var(--gray);
+  
+}
+
+.hero-btm p{
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+.brand-icons{
+  display: flex;
+  gap:10px;
+}
